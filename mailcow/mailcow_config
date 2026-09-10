@@ -1,0 +1,8 @@
+MC_SERVER="mail"
+API_RW_FILE="/root/mailcow/api.key"
+API_RO_FILE="/root/mailcow/api-ro.key"
+
+DEFAULT_DOMAIN="mailcow.local"
+
+API_RO_KEY=$(cat "${API_RO_FILE}")
+API_RW_KEY=$(cat "${API_RW_FILE}")
